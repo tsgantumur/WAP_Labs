@@ -48,3 +48,7 @@ a:active {
   color: blue;
   text-decoration: underline;
 }
+
+dt {
+  color: yellow;
+}
