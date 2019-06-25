@@ -25,9 +25,12 @@ h3 {
   color: yellow;
 }
 
-p.drop-cap {
-  -webkit-initial-letter: 1.5;
-  initial-letter: 1.5;
+p::first-letter {
+  -webkit-initial-letter: 3;
+  initial-letter: 3;
+
+  color: #c69c6d;
+  margin-right: .1em;
 }
 
 a:link {
