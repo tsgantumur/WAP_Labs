@@ -2,12 +2,19 @@
 body {
   background-color: brown;
   color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   color: cyan;
+  font-style: bold;
+  font-size: 30px;
+  text-align: left;
 }
 
 h3 {
   color: cyan;
+  font-style: bold;
+  font-size: 20px;
+  text-align: left;
 }
