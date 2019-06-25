@@ -26,7 +26,8 @@ h3 {
 }
 
 p::first-letter {
-  initial-letter: 3;
+  -webkit-initial-letter: 1.5;
+  initial-letter: 1.5;
 }
 
 a:link {
