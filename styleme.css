@@ -21,6 +21,14 @@ h3 {
   text-align: left;
 }
 
+.attr {
+  color: yellow;
+}
+
+p::first-letter {
+  initial-letter: 2;
+}
+
 a:link {
   color: red;
   text-decoration: none;
