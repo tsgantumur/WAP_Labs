@@ -23,7 +23,7 @@ h3 {
 
 a:link {
   color: red;
-  tex-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
