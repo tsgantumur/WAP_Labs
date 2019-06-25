@@ -53,3 +53,7 @@ a:active {
 dt {
   color: yellow;
 }
+
+dd {
+  text-overflow: ellipse;
+}
