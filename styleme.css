@@ -1,4 +1,13 @@
 
 body {
   background-color: brown;
+  color: white;
+}
+
+h1 {
+  color: cyan;
+}
+
+h3 {
+  color: cyan;
 }
