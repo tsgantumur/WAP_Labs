@@ -61,3 +61,10 @@ dd {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+div.b {
+  white-space: nowrap;
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
