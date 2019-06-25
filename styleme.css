@@ -25,7 +25,7 @@ h3 {
   color: yellow;
 }
 
-p::first-letter {
+p.drop-cap {
   -webkit-initial-letter: 1.5;
   initial-letter: 1.5;
 }
