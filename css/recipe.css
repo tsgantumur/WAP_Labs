@@ -1,0 +1,102 @@
+#header {
+    color: #A4A400;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    text-decoration: underline;
+}
+
+.inner-header {
+    background-color: #F0F0F0;
+    display: inline;
+}
+
+body{
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+    font-family: Georgia, Garamond, sans-serif;
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+}
+.heading {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: underline;
+    display: inline;
+}
+
+a.link {
+    color: #A4A400;
+}
+
+.tooltip{
+    position: relative;
+    text-decoration: underline;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+div > span {
+    text-decoration: line-through;
+}
+
+.parent-userComments {
+    display: inline;
+}
+div.userComments {
+    background-color: #f2ff50;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div.copyright {
+    font-family: monospace;
+    text-align: right;
+}
+
+div.validator {
+    position: absolute;
+    right:0px;
+}
+
+ul {
+    list-style-image: url('../images/pie_icon.gif');
+}
