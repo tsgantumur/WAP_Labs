@@ -3,7 +3,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     background-color: white;
-    text-shadow: 1px 1px #404040;
+
 }
 
 .blue-border, .green-border {
@@ -47,7 +47,7 @@ span {
     margin-top: 10px;
     overflow: auto;
     float: right;
-
+    text-shadow: 1px 1px #404040;
 }
 
 .blue-border2 {
