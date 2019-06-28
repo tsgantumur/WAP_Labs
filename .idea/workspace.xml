@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/HTMLForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="272">
+              <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -175,7 +175,7 @@
       <workItem from="1561667561401" duration="11198000" />
       <workItem from="1561690103461" duration="6041000" />
       <workItem from="1561748384157" duration="785000" />
-      <workItem from="1561751338212" duration="3405000" />
+      <workItem from="1561751338212" duration="4041000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1561498058085</created>
@@ -195,7 +195,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51456000" />
+    <option name="totallyTimeSpent" value="52092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -362,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/HTMLForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="272">
+          <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
         </state>
       </provider>
     </entry>
