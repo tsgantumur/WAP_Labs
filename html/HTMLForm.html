@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Personal Information</h2>
+    <form action="">
+        First name:<br>
+        <input type="text" name="firstname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
+        <br>
+        Date of Birth:<br>
+        <input type="date" name="dateOfBirth" value="" required>
+        <br>
+        Social Insurance Number:<br>
+        <input type="text" name="sin" pattern="[0-9]{9}" title="0-9 only 9 digits" required>
+        <br>
+        How did you learn about this card?<br>
+        <select name="source" required>
+            <option value="">Select source</option>
+            <option value="mailoffer">Mail Offer</option>
+            <option value="searchengine">Search Engine</option>
+            <option value="onlinebanner">Online Banner Ad or Video</option>
+            <option value="facebook">Facebook Ad or Video</option>
+            <option value="site">Credits Card Comparison Site</option>
+            <option value="content">Email with CapitalOne Content</option>
+            <option value="familyorfriend">Family or Friend</option>
+            <option value="outdoorortransit">Outdoor or Transit Ad</option>
+            <option value="newspaper">Newspaper</option>
+            <option value="magazine">Magazine</option>
+            <option value="sponsoredevent">CapitalOne Sponsored Event</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+    <hr>
+    <h2>Contact Information</h2>
+
+        Home Address<br>
+        <input type="text" name="address" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
+        <br>
+        Suite/Apt. #<br>
+        <input type="text" name="apt" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
+        <br>
+        Email Address<br>
+        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Input your email!" required>
+        <br>
+        Primary Phone Number<br>
+        <input type="tel" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Input your phone number!" required>
+        <br>
+
+    <hr>
+    <h2>Authorized User</h2>
+
+        <input type="checkbox" name="user" value=""> Yes! I would like to add an Authorized User(AU) to my account and receive a second card with their name on it.<br>
+    <hr>
+    <h2>Employment Information</h2>
+
+        Home Address<br>
+        <select required name="employment">
+            <option value="">Select status</option>
+            <option value="employed">Employed</option>
+            <option value="self-employed">Self-employed</option>
+            <option value="retired">Retired</option>
+            <option value="student">Student</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+
+    <hr>
+    <h2>Financial Information</h2>
+
+        Do you:(Optional)<br>
+        <label><input type="radio" name="opt" value="own" required/>Own</label>
+        <label><input type="radio" name="opt" value="rent"/>Rent</label>
+        <label><input type="radio" name="opt" value="parents"/>Live with parents</label>
+        <label><input type="radio" name="opt" value="other"/>Other</label>
+        <br/>
+        Your Annual Income(Before Taxes):<br>
+        <input type="text" name="income" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+        <br>
+        Other Household Income(Before Taxes):<br>
+        <input type="text" name="householdTaxes" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+        <br>
+        Do you have a mortgage?(Optional)<br>
+        <label><input type="radio" name="mor" value="yes" required/>Yes</label>
+        <label><input type="radio" name="mor" value="no"/>No</label>
+        <br>
+        Monthly Rent/Mortgage(Optional):<br>
+        <input type="text" name="rent" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+        <br>
+        Do you have any bank accounts?<br>
+        <select name="account" required>
+            <option value="">Select a type</option>
+            <option value="employed">Chequing and savings</option>
+            <option value="self-employed">Chequing Only</option>
+            <option value="retired">Savings Only</option>
+            <option value="student">Neither</option>
+        </select>
+        <br>
+        Would you like to use your card for cash advances?(Optional)<br>
+        <label><input type="radio" name="adv" value="yes" required/>Yes</label>
+        <label><input type="radio" name="adv" value="no"/>No</label>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <div class="validator">
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator"/>
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/>
+        </a>
+    </div><br/><br/>
+</body>
+</html>
