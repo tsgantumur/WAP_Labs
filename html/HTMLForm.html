@@ -8,56 +8,80 @@
 <body>
     <h2>Personal Information</h2>
     <form action="/action_page.php">
-        First name:<br>
-        <input type="text" name="firstname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
-        <br>
-        Last name:<br>
-        <input type="text" name="lastname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
-        <br>
-        Date of Birth:<br>
-        <input type="text" name="dateOfBirth" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input date!" required>
-        <br>
-        Mother's Maiden Name:<br>
-        <input type="text" name="dateOfBirth" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input date!" required>
-        <br>
-        Social Insurance Number:<br>
-        <input type="text" name="sin" pattern="[0-9]{9}" title="0-9 only 9 digits" required>
-        <br>
-        <img src="../images/card-en.png" alt="Capital One Card">
-        <br>
-        How did you learn about this card?<br>
-        <select name="source" required>
-            <option value="">Select source</option>
-            <option value="mailoffer">Mail Offer</option>
-            <option value="searchengine">Search Engine</option>
-            <option value="onlinebanner">Online Banner Ad or Video</option>
-            <option value="facebook">Facebook Ad or Video</option>
-            <option value="site">Credits Card Comparison Site</option>
-            <option value="content">Email with CapitalOne Content</option>
-            <option value="familyorfriend">Family or Friend</option>
-            <option value="outdoorortransit">Outdoor or Transit Ad</option>
-            <option value="newspaper">Newspaper</option>
-            <option value="magazine">Magazine</option>
-            <option value="sponsoredevent">CapitalOne Sponsored Event</option>
-            <option value="other">Other</option>
-        </select>
-        <br><br>
+        <div id="personal-info">
+            <div class="item1">
+                <div class="column">
+                    First name:<br>
+                    <input type="text" name="firstname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
+                </div>
+                <div class="column">
+                    Last name:<br>
+                    <input type="text" name="lastname" pattern="[A-Za-z]*" title="A-Z or a-z" required>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="column">
+                    Date of Birth:<br>
+                    <input type="text" name="dateOfBirth" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input date!" required>
+                </div>
+                <div class="column">
+                    Mother's Maiden Name:<br>
+                    <input type="text" name="motherName" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input name!" required>
+                </div>
+                <div class="column">
+                    <img src="../images/card-en.png" alt="Capital One Card" class="card-art">
+                </div>
+            </div>
+            <div class="item3">
+                <div class="column">
+                    Social Insurance Number:<br>
+                    <input type="text" name="sin" pattern="[0-9]{9}" title="0-9 only 9 digits" required>
+                </div>
+                <div class="column">
+                    How did you learn about this card?<br>
+                    <select name="source" required>
+                        <option value="">Select source</option>
+                        <option value="mailoffer">Mail Offer</option>
+                        <option value="searchengine">Search Engine</option>
+                        <option value="onlinebanner">Online Banner Ad or Video</option>
+                        <option value="facebook">Facebook Ad or Video</option>
+                        <option value="site">Credits Card Comparison Site</option>
+                        <option value="content">Email with CapitalOne Content</option>
+                        <option value="familyorfriend">Family or Friend</option>
+                        <option value="outdoorortransit">Outdoor or Transit Ad</option>
+                        <option value="newspaper">Newspaper</option>
+                        <option value="magazine">Magazine</option>
+                        <option value="sponsoredevent">CapitalOne Sponsored Event</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
 
     <hr>
     <h2>Contact Information</h2>
-
-        Home Address<br>
-        <input type="text" name="address" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
-        <br>
-        Suite/Apt. #<br>
-        <input type="text" name="apt" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
-        <br>
-        Email Address<br>
-        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Input your email!" required>
-        <br>
-        Primary Phone Number<br>
-        <input type="tel" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Input your phone number!" required>
-        <br>
+        <div id="contact-info">
+            <div class="item1">
+                <div class="column">
+                    Home Address<br>
+                    <input type="text" name="address" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
+                </div>
+                <div class="column">
+                    Suite/Apt. #<br>
+                    <input type="text" name="apt" pattern="[a-zA-Z0-9 ]*" title="Check your input!" required>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="column">
+                    Email Address<br>
+                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Input your email!" required>
+                </div>
+                <div class="column">
+                    Primary Phone Number<br>
+                    <input type="tel" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Input your phone number!" required>
+                </div>
+            </div>
+        </div>
 
     <hr>
     <h2>Authorized User</h2>
@@ -78,41 +102,56 @@
 
     <hr>
     <h2>Financial Information</h2>
-
-        Do you:(Optional)<br>
-        <label><input type="radio" name="opt" value="own" required/>Own</label>
-        <label><input type="radio" name="opt" value="rent"/>Rent</label>
-        <label><input type="radio" name="opt" value="parents"/>Live with parents</label>
-        <label><input type="radio" name="opt" value="other"/>Other</label>
-        <br/>
-        Your Annual Income(Before Taxes):<br>
-        <input type="text" name="income" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
-        <br>
-        Other Household Income(Before Taxes):<br>
-        <input type="text" name="householdTaxes" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
-        <br>
-        Do you have a mortgage?(Optional)<br>
-        <label><input type="radio" name="mor" value="yes" required/>Yes</label>
-        <label><input type="radio" name="mor" value="no"/>No</label>
-        <br>
-        Monthly Rent/Mortgage(Optional):<br>
-        <input type="text" name="rent" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
-        <br>
-        Do you have any bank accounts?<br>
-        <select name="account" required>
-            <option value="">Select a type</option>
-            <option value="employed">Chequing and savings</option>
-            <option value="self-employed">Chequing Only</option>
-            <option value="retired">Savings Only</option>
-            <option value="student">Neither</option>
-        </select>
-        <br>
-        Would you like to use your card for cash advances?(Optional)<br>
-        <label><input type="radio" name="adv" value="yes" required/>Yes</label>
-        <label><input type="radio" name="adv" value="no"/>No</label>
-        <br>
-        <br>
-        <input type="submit">
+        <div id="financial-info">
+            <div class="item1">
+                Do you:(Optional)<br>
+                <label><input type="radio" name="opt" value="own" required/>Own</label>
+                <label><input type="radio" name="opt" value="rent"/>Rent</label>
+                <label><input type="radio" name="opt" value="parents"/>Live with parents</label>
+                <label><input type="radio" name="opt" value="other"/>Other</label>
+            </div>
+            <div class="item2">
+                <div class="column">>
+                    Your Annual Income(Before Taxes):<br>
+                    <input type="text" name="income" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+                </div>
+                <div class="column">
+                    Other Household Income(Before Taxes):<br>
+                    <input type="text" name="householdTaxes" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+                </div>
+            </div>
+            <div class="item3">
+                <div class="column">
+                Do you have a mortgage?(Optional)<br>
+                    <label><input type="radio" name="mor" value="yes" required/>Yes</label>
+                    <label><input type="radio" name="mor" value="no"/>No</label>
+                </div>
+                <div class="column">
+                    Monthly Rent/Mortgage(Optional):<br>
+                    <input type="text" name="rent" value="" required pattern="[0-9]*" title="0-9 only 9 digits">
+                </div>
+            </div>
+            <div class="item4">
+                <div class="column">
+                    Do you have any bank accounts?<br>
+                    <select name="account" required>
+                        <option value="">Select a type</option>
+                        <option value="employed">Chequing and savings</option>
+                        <option value="self-employed">Chequing Only</option>
+                        <option value="retired">Savings Only</option>
+                        <option value="student">Neither</option>
+                    </select>
+                </div>
+                <div class="column">
+                    Would you like to use your card for cash advances?(Optional)<br>
+                    <label><input type="radio" name="adv" value="yes" required/>Yes</label>
+                    <label><input type="radio" name="adv" value="no"/>No</label>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Review My Application">
+        </div>
     </form>
     <br>
     <div class="validator">

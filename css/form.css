@@ -7,5 +7,93 @@ form {
 h2 {
     font-family: Georgia, Garamond, sans-serif;
     font-weight: bold;
+    text-align: center;
+}
+
+body {
+    border: 1px solid gray;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+.card-art {
+    max-height: 160px;
+    margin-top: 26px;
+}
+
+.item1 * {
+    grid-area: header;
+}
+
+.item2 * {
+    grid-area: main;
+}
+
+.item3 * {
+    grid-area: footer;
+}
+
+.item4 * {
+    grid-area: footer;
+}
+
+#personal-info, #contact-info, #financial-info {
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'main main main'
+    'footer' 'footer';
+    grid-gap: 10px;
+}
+
+#personal-info .column {
+    float: left;
+    width: 33%;
 
 }
+
+#contact-info .column, #financial-info .column {
+    float: left;
+    width: 50%;
+
+}
+
+.submit * {
+    width: 600px;
+    height: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+input[type=text], input[type=email], input[type=tel]{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+#personal-info select, #contact-info select {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#financial-info select {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
