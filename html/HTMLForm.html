@@ -22,11 +22,11 @@
             <div class="item2">
                 <div class="column">
                     Date of Birth:<br>
-                    <input type="text" name="dateOfBirth" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input date!" required>
+                    <input type="text" name="dateOfBirth" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input date!" required placeholder="__/__/____">
                 </div>
                 <div class="column">
                     Mother's Maiden Name:<br>
-                    <input type="text" name="motherName" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Input name!" required>
+                    <input type="text" name="motherName" pattern="\[A-Za-z]*" title="Input name!" required>
                 </div>
                 <div class="column">
                     <img src="../images/card-en.png" alt="Capital One Card" class="card-art">
@@ -35,7 +35,7 @@
             <div class="item3">
                 <div class="column">
                     Social Insurance Number:<br>
-                    <input type="text" name="sin" pattern="[0-9]{9}" title="0-9 only 9 digits" required>
+                    <input type="text" name="sin" pattern="[0-9]{9}" title="0-9 only 9 digits" required placeholder="">
                 </div>
                 <div class="column">
                     How did you learn about this card?<br>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="column">
                     Primary Phone Number<br>
-                    <input type="tel" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Input your phone number!" required>
+                    <input type="tel" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Input your phone number!" required placeholder="___-___-____">
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
     <hr>
     <h2>Employment Information</h2>
 
-        Home Address<br>
+        Employment Status<br>
         <select required name="employment">
             <option value="">Select status</option>
             <option value="employed">Employed</option>
