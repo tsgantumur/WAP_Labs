@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="481f2f81-7440-467a-971e-202e9abdb1d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/HTMLForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/HTMLForm.html" afterDir="false" />
-    </list>
+    <list default="true" id="481f2f81-7440-467a-971e-202e9abdb1d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/HTMLForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="24" column="144" selection-start-line="24" selection-start-column="144" selection-end-line="24" selection-end-column="144" />
+            <state relative-caret-position="264">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -78,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="275" />
     <option name="y" value="32" />
     <option name="width" value="1290" />
@@ -199,7 +195,7 @@
       <workItem from="1561832722296" duration="980000" />
       <workItem from="1561833905350" duration="5588000" />
       <workItem from="1561858571236" duration="675000" />
-      <workItem from="1561860421255" duration="429000" />
+      <workItem from="1561860421255" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1561498058085</created>
@@ -219,11 +215,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60342000" />
+    <option name="totallyTimeSpent" value="61036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20201342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -393,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/HTMLForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="144" selection-start-line="24" selection-start-column="144" selection-end-line="24" selection-end-column="144" />
+        <state relative-caret-position="264">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" />
           </folding>
