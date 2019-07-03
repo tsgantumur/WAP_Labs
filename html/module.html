@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Account</title>
+    <link href="../css/module.css" rel="stylesheet"/>
+</head>
+<body>
+    <script src="../javascript/module.js"></script>
+
+    <form>
+        <div>
+            <label id="l1">Account Name:</label>
+            <input type="text" id="accountName" pattern="[A-Za-z]*" title="A-Z or a-z" required> <br />
+        </div>
+        <div>
+            <label id="l2">Deposit:</label>
+            <input type="text" name=deposit" id="deposit" pattern="[0-9]*" title="A-Z or a-z" required> <br />
+        </div>
+        <div>
+            <input type="button" id="createNewAccount" value="Create new account" onclick="addAccount()"/> <br />
+        </div>
+        <div>
+            <textarea rows="8" cols="50" id="displayAccounts">
+
+            </textarea>
+        </div>
+
+        <div>
+            <a href="https://validator.w3.org/check/referer"><img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Valid HTML5" /></a> <br />
+            <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS" /></a>
+        </div>
+    </form>
+</body>
+</html>
